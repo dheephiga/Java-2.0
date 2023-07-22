@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6e6320a-f46e-49ab-be72-912a2eb8ab75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../_01JavaFundamentals.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="a6e6320a-f46e-49ab-be72-912a2eb8ab75" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +23,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "82c8b0b5",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689935668256</updated>
       <workItem from="1689935670944" duration="1376000" />
+      <workItem from="1689998295986" duration="17000" />
     </task>
     <servers />
   </component>
