@@ -8,6 +8,12 @@
 //most tickets booked in a counter, to choose star performer of the day
 
 import java.util.Scanner;
+
+class theatre{
+    static int counters = 4;
+    int customers;
+    int tickets;
+}
 public class jagged {
     public static void main(String [] args)
     {
