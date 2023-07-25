@@ -25,7 +25,7 @@ public class arrofobj {
 
         System.out.println(s1.name + ":"+ s1.marks);
 
-        Student students[]=new Student[3];
+        Student [] students=new Student[3];
         students[0]=s1;
         students[1]=s2;
         students[2]=s3;
