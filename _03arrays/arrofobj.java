@@ -29,7 +29,9 @@ public class arrofobj {
         students[0]=s1;
         students[1]=s2;
         students[2]=s3;
-//we are creating an array
+//we are creating an array to store the address sorta thing, in jargon we are storing the objects into the reference variables
+//which is the array, students[i]
+
         for(int i=0;i<students.length;i++)
         {
             System.out.println(students[i].name+":"+students[i].marks);
