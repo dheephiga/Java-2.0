@@ -2,9 +2,14 @@ class details{
     String name;
     private int age;
 
+    public int getAge(details obj){
+        return age;
+    }
     public void setAge(int a){
         age = a;
     }
+
+    public
 
     public void show(details o){
         System.out.println(o.name);
