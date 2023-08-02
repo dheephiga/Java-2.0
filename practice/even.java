@@ -15,7 +15,7 @@ public class even {
 int evensum=0;
 int oddsum=0;
 
-    for(int i : arr)
+    for(int i = 0; i<arr.length;i++)
     {
         if(i%2==0)
             evensum+=arr[i];
