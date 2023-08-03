@@ -9,10 +9,7 @@ class A{
 class B extends A{
 int b;
 void display()
-
-{
-
-}
+    this.b = b;
 }
 
 public class single_inheritance {
