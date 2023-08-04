@@ -1,5 +1,7 @@
 class Aa{
-
+public Aa(){
+    System.out.println("inside A");
+}
 }
 
 class Bb extends Aa{
