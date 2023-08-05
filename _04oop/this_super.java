@@ -6,11 +6,17 @@ public Aa(){
 
 class Bb extends Aa{
 public Bb(){
-    System.out.println("inside b block");
+   // this();
+    System.out.println("inside B");
+}
+public Bb(int n)
+{
+   this();
+    System.out.println("int B");
 }
 }
 public class this_super {
     public static void main(String[] args) {
-        Bb obj = new Bb();
+        Bb obj = new Bb(5);
     }
 }
