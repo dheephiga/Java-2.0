@@ -9,6 +9,6 @@ class an{
 }
 public class anon {
     public static void main(String[] args) {
-
+        new an();
     }
 }
