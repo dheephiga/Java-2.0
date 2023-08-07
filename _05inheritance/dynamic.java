@@ -18,6 +18,8 @@ public class dynamic {
 
         obj = new b();
         // we can map the reference variable to another object
+        obj.show();
+        //must print In B class
 
 
     }
