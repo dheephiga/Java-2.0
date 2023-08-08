@@ -9,6 +9,20 @@ final class fin{
 //class fine extends fin{
 //    //throws error over here, once you uncomment it
 //}
+
+//class which cannot be overridden can be created using final keyword
+
+class fren{
+    final public void pb(){
+        System.out.println("the function with final keyword");
+    }
+}
+
+class frun extends fren{
+//    public void pb(){
+//        //throws error while you uncomment
+//    }
+}
 public class final_w {
     public static void main(String[] args) {
         //final variable
