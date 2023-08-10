@@ -12,10 +12,11 @@ public class abs_anon_inner {
          }
          public void abs_view()
          {
-             System.out.println("Abs");
+             System.out.println("Abstract method - view");
          }
         };
 
-
+        ab.abs_show();
+        ab.abs_view();
     }
 }
