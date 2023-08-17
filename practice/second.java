@@ -8,15 +8,18 @@ public class second {
 
         int [] maj = new int[n];
 
-        for(int i:maj)
+        for(int i=0;i<n;i++)
             maj[i] = in.nextInt();
-
+        for (int i=0;i<n;i++) {
+            System.out.println(maj[i] + " ");
+        }
         for(int i = 0;i<n;i++)
         {
             if(i%2==0)
                 even.add(maj[i]);
             else
                 odd.add(maj[i]);
+
         }
         Collections.sort(odd);
         Collections.sort(even);
