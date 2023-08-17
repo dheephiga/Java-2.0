@@ -10,8 +10,8 @@ public class second {
 
         for(int i=0;i<n;i++)
             maj[i] = in.nextInt();
-        for (int i=0;i<n;i++) {
-            System.out.println(maj[i] + " ");
+//        for (int i=0;i<n;i++) {
+//            System.out.println(maj[i] + " ");
         }
         for(int i = 0;i<n;i++)
         {
