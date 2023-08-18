@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/_05calc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_05inheritance" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/misc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/regex" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
