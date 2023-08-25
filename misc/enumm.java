@@ -7,6 +7,6 @@ public class enumm {
         status [] s = status.values();
         System.out.println(s);
         for(status a : s)
-            System.out.println(s[a]);
+            System.out.println(a);
     }
 }
