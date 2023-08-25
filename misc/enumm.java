@@ -8,5 +8,15 @@ public class enumm {
         System.out.println(s);
         for(status a : s)
             System.out.println(a);
+
+        //enum with switch
+    status ss = status.success;
+        switch (ss) {
+            case running -> System.out.println("all good");
+            case pending -> System.out.println("Waiting");
+            case success -> System.out.println("Perfect");
+            case failed -> System.out.println("Try again");
+            default -> System.out.println("Invalid");
+        }
     }
 }
