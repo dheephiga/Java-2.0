@@ -14,8 +14,8 @@ public class enumm {
         switch (ss) {
             case running -> System.out.println("all good");
             case pending -> System.out.println("Waiting");
-            case success -> System.out.println("Perfect");
             case failed -> System.out.println("Try again");
+            case success -> System.out.println("Perfect");
             default -> System.out.println("Invalid");
         }
     }
