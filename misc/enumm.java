@@ -15,7 +15,7 @@ public class enumm {
     //input from user
         Scanner in = new Scanner(System.in);
         status su = status.valueOf(in.next());
-        switch (ss) {
+        switch (su) {
             case running -> System.out.println("all good");
             case pending -> System.out.println("Waiting");
             case failed -> System.out.println("Try again");
