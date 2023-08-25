@@ -1,3 +1,4 @@
+import java.util.*;
 enum status {
     running,pending,failed, success;
 }
@@ -11,6 +12,9 @@ public class enumm {
 
         //enum with switch
     status ss = status.success;
+    //input from user
+        Scanner in = new Scanner(System.in);
+        status su = status.valueOf(in.next());
         switch (ss) {
             case running -> System.out.println("all good");
             case pending -> System.out.println("Waiting");
