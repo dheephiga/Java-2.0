@@ -1,9 +1,11 @@
 interface lamb{
-    void show();
+   // void show();
+    int withparam(int i);
 }
 public class lambda {
     public static void main(String[] args) {
-        lamb n = () -> System.out.println("hello this is lambda ");
-        n.show();
+        lamb n = (a) -> a+8;
+        int r = n.withparam(9);
+        System.out.println(r);
     }
 }
