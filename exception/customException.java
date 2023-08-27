@@ -17,7 +17,7 @@ public class customException {
             if (a.length < j)
                 throw new ArrayIndexOutOfBoundsException("Cannot access");
         } catch (ArrayIndexOutOfBoundsException l) {
-            System.out.println(a[j - 1]);
+            System.out.println(a[j - 2]);
         }
     }
 }
