@@ -9,14 +9,11 @@ public class customException {
         int[] a = new int[8];
         int j = 9;
         try {
-
-            System.out.println(a[j]);
-
             if (a.length < j)
             //    throw new ArrayIndexOutOfBoundsException("Cannot access");
                 throw new myException("unable to find element");
         } catch ( myException l) {
-            System.out.println(a[j - 2]);
+            System.out.println(a[j - 5]);
         }
     }
 }
