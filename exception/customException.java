@@ -1,9 +1,7 @@
-import java.lang.reflect.Array;
-
-class myException{
+class myException extends Exception {
     public myException(String s)
     {
-
+        super(s);
     }
 }
 public class customException {
@@ -15,8 +13,9 @@ public class customException {
             System.out.println(a[j]);
 
             if (a.length < j)
-                throw new ArrayIndexOutOfBoundsException("Cannot access");
-        } catch (ArrayIndexOutOfBoundsException l) {
+            //    throw new ArrayIndexOutOfBoundsException("Cannot access");
+                throw new myException("unable to find element");
+        } catch ( myException l) {
             System.out.println(a[j - 2]);
         }
     }
