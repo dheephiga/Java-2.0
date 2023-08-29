@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/misc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/regex" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exception" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
