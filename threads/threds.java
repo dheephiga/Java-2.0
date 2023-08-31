@@ -1,12 +1,12 @@
-class hi{
-    public void show()
+class hi extends Thread{
+    public void run()
     {
         for(int i =0;i<10;i++)
             System.out.println("Hi");
     }
 }
-class hello{
-    public void show()
+class hello extends Thread{
+    public void run()
     {
         for(int i =0;i<10;i++)
             System.out.println("Hello");
@@ -17,7 +17,9 @@ public class threds{
         hi hey = new hi();
         hello heyy = new hello();
 
-        hey.show();
-        heyy.show();
+    //    System.out.println(hey.getPriority());
+        heyy.setPriority(Thread.MAX_PRIORITY);
+        hey.start();
+        heyy.start();
     }
 }
