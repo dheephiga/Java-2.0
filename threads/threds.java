@@ -34,9 +34,14 @@ public class threds{
         hi hey = new hi();
         hello heyy = new hello();
 
-    //    System.out.println(hey.getPriority());
+     System.out.println(hey.getPriority());
        // heyy.setPriority(Thread.MAX_PRIORITY);
         hey.start();
+        try {
+            hey.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         try{
             Thread.sleep(2);
         }
