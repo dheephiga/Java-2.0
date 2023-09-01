@@ -37,6 +37,13 @@ public class threds{
     //    System.out.println(hey.getPriority());
        // heyy.setPriority(Thread.MAX_PRIORITY);
         hey.start();
+        try{
+            Thread.sleep(2);
+        }
+        catch(InterruptedException e)
+        {
+            e.printStackTrace();
+        }
         heyy.start();
     }
 }
