@@ -49,6 +49,7 @@ public class threds{
         {
             e.printStackTrace();
         }
-        heyy.start();
+        heyy.run();
+  //      hey.
     }
 }

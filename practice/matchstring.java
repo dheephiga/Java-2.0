@@ -21,5 +21,5 @@ public class matchstring {
     }
 }
 
-succeed 4
-crossbreed 7
+//succeed 4
+//crossbreed 7

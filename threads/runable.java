@@ -55,6 +55,12 @@ public class runable {
                    }
                }
        };
+       Runnable obj3 = new Runnable() {
+           @Override
+           public void run() {
+
+           }
+       };
 //       ar obj1 = new ar();
 //       br obj2 = new br();
 //
