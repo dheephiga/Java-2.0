@@ -7,8 +7,7 @@ public class arraylist {
         while (in.hasNext())
         {
             if(in.hasNextInt()) {
-                i = in.nextInt();
-                num.add(i);
+               num.add(in.nextInt());
             }
         }
       //  for(int x : num)
