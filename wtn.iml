@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/exception" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/threads" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ds" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/files" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -8,21 +8,10 @@ public class stream {
     		System.out.println(nums.get(i));
     	}
 
-
     	for(int n: nums)
     	{
     		System.out.println(n);
     	}
-
-
-
-
-
-
-
-
-
-
 
         //   nums.forEach(n -> System.out.println(n));
 
